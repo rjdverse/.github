@@ -1,3 +1,3 @@
-# JDemetra+ v 3.x R ecosystem
+# .github
 
 JDemetra+ v 3.x R ecosystem
