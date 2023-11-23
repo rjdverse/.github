@@ -1,5 +1,4 @@
-## Hi there 👋
-
+## Home repository of JDemetra+ v 3.x R ecosystem
 <!--
 
 **Here are some ideas to get you started:**
