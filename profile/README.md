@@ -10,11 +10,65 @@
 🧙 Remember, you can do mighty things with the power of [Markdown](https://docs.github.com/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
 -->
 
-### Structure
+rjdemetra is an organization dedicated to creating **R packages giving access to JDemetra+ version 3.x algorithms**. Its main contributors come from National Bank of Belgium (NBB), Deutsche Bundesbank (BBk) and the french NSI (Insee).
+
+[JDemetra+](https://github.com/jdemetra) is a versatile time series analysis software, whose core routines are written in Java and also accessible via a Graphical User Interface.
+
+[[Documentation]](https://jdemetra-new-documentation.netlify.app/) | [[Blog]](https://jdemetra-universe-blog.netlify.app/)
+
+Installation procedure and basic examples are given in the readme file of each package. Their documentation is available via GitHub pages.
+
+List of R packages available on this page: 
+
+**Seasonal adjustment**
+
+    - rjd3x13 (Reg-Arima + x11 based decomposition)
+
+    - rjd3tramoseats (Tramo+ AMB decomposition with SEATS)
+    
+    - rjd3stl (Local regression)
+
+    - rjd3highfreq (extended airline model + extended AMB decomposition)
+    
+    - rjd3x11plus (extended X11)
+    
+    - rjd3sts (basic structural models
+    
+**Benchmarking, Temporal disaggregation, Revision analysis and Nowcasting**
+
+    - rjd3bench (benchmarking and temporal disaggregation)
+    
+    - rjd3revisions (revision analysis)
+    
+    - rjd3nowcasting(nowcasting)
+    
+**Filtering and trend estimation**
+
+    - rjd3filters
+    
+    - rjd3x11plus (local polynomials)
+
+**General purpose tools**
+    
+    - rjd3toolkit (specifications, tests, regressors)
+    
+    - rjd3sts (state space framework)
+    
+    - rjd3filters (generating moving averages)
+
+  
+**Tools related to JDemetra+ Graphical User Interface**
+    
+    - rjd3providers (input data)
+    
+    - rjdemetra3 (workspace wrangling)
+
+
+### Dependency relations 
 
 ```mermaid
 flowchart TB
-    subgraph rjd3toolkit_depends ["Packages dépendants de rjd3toolkit"]
+    subgraph rjd3toolkit_depends ["All packages depend on rjd3toolkit"]
         direction TB
 
 
