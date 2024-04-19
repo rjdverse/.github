@@ -367,7 +367,7 @@ display: none;
 <p>rjdemetra is an organization dedicated to creating <strong>R packages
 giving access to JDemetra+ version 3.x algorithms</strong>. Its main
 contributors come from National Bank of Belgium (NBB), Deutsche
-Bundesbank (BBk) and the french NSI (Insee).</p>
+Bundesbank (BBk) and Insee.</p>
 <p><a href="https://github.com/jdemetra">JDemetra+</a> is a versatile
 time series analysis software, whose core routines are written in Java
 and also accessible via a Graphical User Interface.</p>
@@ -377,40 +377,49 @@ and also accessible via a Graphical User Interface.</p>
 file of each package. Their documentation is available via GitHub
 pages.</p>
 <p>List of R packages available on this page:</p>
+<p><strong>General purpose tools</strong></p>
+<ul>
+<li><a href="https://github.com/rjdemetra/rjd3toolkit">rjd3toolkit</a>
+(base layer for all other packages, specifications, tests, generating
+regressors)</li>
+</ul>
 <p><strong>Seasonal adjustment</strong></p>
-<pre><code>- rjd3x13 (Reg-Arima + x11 based decomposition)
-
-- rjd3tramoseats (Tramo+ AMB decomposition with SEATS)
-
-- rjd3stl (Local regression)
-
-- rjd3highfreq (extended airline model + extended AMB decomposition)
-
-- rjd3x11plus (extended X11)
-
-- rjd3sts (basic structural models</code></pre>
+<ul>
+<li><p><a href="https://github.com/rjdemetra/rjd3x13">rjd3x13</a>
+(Reg-Arima + X11 decomposition)</p></li>
+<li><p><a href="https://github.com/rjdemetra/rjd3tramoseats">rjd3tramoseats</a>
+(Tramo + SEATS decomposition)</p></li>
+<li><p><a href="https://github.com/rjdemetra/rjd3stl">rjd3stl</a> (Loess
+based regression decomposition)</p></li>
+<li><p><a href="https://github.com/rjdemetra/rjd3highfreq">rjd3highfreq</a>
+(extended airline model + extended AMB decomposition)</p></li>
+<li><p><a href="https://github.com/rjdemetra/rjd3x11plus">rjd3x11plus</a>
+(extended X11)</p></li>
+<li><p><a href="https://github.com/rjdemetra/rjd3sts">rjd3sts</a> (State
+Space Framework)</p></li>
+</ul>
 <p><strong>Benchmarking, Temporal disaggregation, Revision analysis and
 Nowcasting</strong></p>
-<pre><code>- rjd3bench (benchmarking and temporal disaggregation)
-
-- rjd3revisions (revision analysis)
-
-- rjd3nowcasting(nowcasting)</code></pre>
+<ul>
+<li><p><a href="https://github.com/rjdemetra/rjd3bench">rjd3bench</a>
+(Benchmarking and Temporal disaggregation)</p></li>
+<li><p><a href="https://github.com/rjdemetra/rjd3revision">rjd3revisions</a>
+(revision analysis)</p></li>
+<li><p><a href="https://github.com/rjdemetra/rjd3nowcating">rjd3nowcasting</a>
+(nowcasting)</p></li>
+</ul>
 <p><strong>Filtering and trend estimation</strong></p>
-<pre><code>- rjd3filters
-
-- rjd3x11plus (local polynomials)</code></pre>
-<p><strong>General purpose tools</strong></p>
-<pre><code>- rjd3toolkit (specifications, tests, regressors)
-
-- rjd3sts (state space framework)
-
-- rjd3filters (generating moving averages)</code></pre>
+<ul>
+<li><a href="https://github.com/rjdemetra/rjd3filters">rjd3filters</a></li>
+</ul>
 <p><strong>Tools related to JDemetra+ Graphical User
 Interface</strong></p>
-<pre><code>- rjd3providers (input data)
-
-- rjdemetra3 (workspace wrangling)</code></pre>
+<ul>
+<li><p><a href="https://github.com/rjdemetra/rjd3providers">rjd3providers</a>
+(input data)</p></li>
+<li><p><a href="https://github.com/rjdemetra/rjd3filters">rjdemetra3</a>
+(workspace wrangling)</p></li>
+</ul>
 <div id="dependency-relations" class="section level3">
 <h3>Dependency relations</h3>
 <pre class="mermaid"><code>flowchart TB
