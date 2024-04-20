@@ -18,7 +18,7 @@ rjdemetra is an organization dedicated to creating **R packages giving access to
 
 Installation procedure and basic examples are given in the readme file of each package. Their documentation is available via GitHub pages.
 
-Running rjd3 packages requires Java 17 or higher. How ro set up such a configuration in R is explained [here](https://jdemetra-new-documentation.netlify.app/#installing-the-software) 
+Running rjd3 packages requires Java 17 or higher. How to set up such a configuration in R is explained [here](https://jdemetra-new-documentation.netlify.app/#installing-the-software) 
 
 List of R packages available on this page: 
 
