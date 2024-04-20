@@ -45,9 +45,9 @@ tests, generating regressors)
 
 - [rjd3bench](https://github.com/rjdemetra/rjd3bench) (Benchmarking and Temporal disaggregation)
 
-- [rjd3revisions](https://github.com/rjdemetra/rjd3revision) (Revision analysis)
+- [rjd3revisions](https://github.com/rjdemetra/rjd3revisions) (Revision analysis)
 
-- [rjd3nowcasting](https://github.com/rjdemetra/rjd3nowcating) (Nowcasting)
+- [rjd3nowcasting](https://github.com/rjdemetra/rjd3nowcasting) (Nowcasting)
     
 **Filtering and Trend-cycle Extraction**
 
