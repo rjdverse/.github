@@ -12,7 +12,7 @@
 
 rjdemetra is an organization dedicated to creating **R packages giving access to JDemetra+** version 3.x algorithms. 
 
-[JDemetra+](https://github.com/jdemetra) is a versatile time series analysis software, whose core routines are written in Java and also accessible via a Graphical User Interface.
+[JDemetra+](https://github.com/jdemetra) is a versatile time series analysis software, whose core routines are written in Java and also accessible via a Graphical User Interface (GUI).
 
 [[Documentation]](https://jdemetra-new-documentation.netlify.app/) | [[Blog]](https://jdemetra-universe-blog.netlify.app/)
 
@@ -55,9 +55,9 @@ tests, generating regressors)
     
 **Tools related to JDemetra+ Graphical User Interface**
 
-- [rjd3providers](https://github.com/rjdemetra/rjd3providers) (Input data)
+- [rjd3providers](https://github.com/rjdemetra/rjd3providers) (Wrangling input data for GUI)
 
-- [rjdemetra3](https://github.com/rjdemetra/rjdemetra3) (Workspace wrangling)
+- [rjdemetra3](https://github.com/rjdemetra/rjdemetra3) (Wrangling workspaces for GUI)
 
 
 ### Dependency relations 
