@@ -365,23 +365,24 @@ display: none;
 🧙 Remember, you can do mighty things with the power of [Markdown](https://docs.github.com/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
 -->
 <p>rjdemetra is an organization dedicated to creating <strong>R packages
-giving access to JDemetra+ version 3.x algorithms</strong>. Its main
-contributors come from National Bank of Belgium (NBB), Deutsche
-Bundesbank (BBk) and Insee.</p>
+giving access to JDemetra+</strong> version 3.x algorithms.</p>
 <p><a href="https://github.com/jdemetra">JDemetra+</a> is a versatile
 time series analysis software, whose core routines are written in Java
-and also accessible via a Graphical User Interface.</p>
+and also accessible via a Graphical User Interface (GUI).</p>
 <p><a href="https://jdemetra-new-documentation.netlify.app/">[Documentation]</a>
 | <a href="https://jdemetra-universe-blog.netlify.app/">[Blog]</a></p>
 <p>Installation procedure and basic examples are given in the readme
 file of each package. Their documentation is available via GitHub
 pages.</p>
+<p>Running rjd3 packages requires <strong>Java 17 or higher</strong>.
+How to set up such a configuration in R is explained <a href="https://jdemetra-new-documentation.netlify.app/#Rconfig">here</a></p>
 <p>List of R packages available on this page:</p>
 <p><strong>General purpose tools</strong></p>
 <ul>
-<li><a href="https://github.com/rjdemetra/rjd3toolkit">rjd3toolkit</a>
-(base layer for all other packages, specifications, tests, generating
-regressors)</li>
+<li><p><a href="https://github.com/rjdemetra/rjd3toolkit">rjd3toolkit</a> (Base
+layer for all other packages, tests, generating regressors)</p></li>
+<li><p><a href="https://github.com/rjdemetra/rjd3sts">rjd3sts</a> (State
+Space Framework)</p></li>
 </ul>
 <p><strong>Seasonal adjustment</strong></p>
 <ul>
@@ -392,23 +393,21 @@ regressors)</li>
 <li><p><a href="https://github.com/rjdemetra/rjd3stl">rjd3stl</a> (Loess
 based regression decomposition)</p></li>
 <li><p><a href="https://github.com/rjdemetra/rjd3highfreq">rjd3highfreq</a>
-(extended airline model + extended AMB decomposition)</p></li>
+(Extended airline model + extended AMB decomposition)</p></li>
 <li><p><a href="https://github.com/rjdemetra/rjd3x11plus">rjd3x11plus</a>
-(extended X11)</p></li>
-<li><p><a href="https://github.com/rjdemetra/rjd3sts">rjd3sts</a> (State
-Space Framework)</p></li>
+(Extended X11)</p></li>
 </ul>
 <p><strong>Benchmarking, Temporal disaggregation, Revision analysis and
 Nowcasting</strong></p>
 <ul>
 <li><p><a href="https://github.com/rjdemetra/rjd3bench">rjd3bench</a>
 (Benchmarking and Temporal disaggregation)</p></li>
-<li><p><a href="https://github.com/rjdemetra/rjd3revision">rjd3revisions</a>
-(revision analysis)</p></li>
-<li><p><a href="https://github.com/rjdemetra/rjd3nowcating">rjd3nowcasting</a>
-(nowcasting)</p></li>
+<li><p><a href="https://github.com/rjdemetra/rjd3revisions">rjd3revisions</a>
+(Revision analysis)</p></li>
+<li><p><a href="https://github.com/rjdemetra/rjd3nowcasting">rjd3nowcasting</a>
+(Nowcasting)</p></li>
 </ul>
-<p><strong>Filtering and trend estimation</strong></p>
+<p><strong>Filtering and Trend-cycle Extraction</strong></p>
 <ul>
 <li><a href="https://github.com/rjdemetra/rjd3filters">rjd3filters</a></li>
 </ul>
@@ -416,9 +415,9 @@ Nowcasting</strong></p>
 Interface</strong></p>
 <ul>
 <li><p><a href="https://github.com/rjdemetra/rjd3providers">rjd3providers</a>
-(input data)</p></li>
-<li><p><a href="https://github.com/rjdemetra/rjd3filters">rjdemetra3</a>
-(workspace wrangling)</p></li>
+(Wrangling input data for GUI)</p></li>
+<li><p><a href="https://github.com/rjdemetra/rjdemetra3">rjdemetra3</a>
+(Wrangling workspaces for GUI)</p></li>
 </ul>
 <div id="dependency-relations" class="section level3">
 <h3>Dependency relations</h3>
