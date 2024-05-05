@@ -352,23 +352,24 @@ display: none;
 </div>
 
 
-<div id="home-repository-of-jdemetra-v-3.x-r-ecosystem" class="section level2">
-<h2>Home repository of JDemetra+ v 3.x R ecosystem</h2>
+<div id="home-repository-of-jdemetra-r-ecosystem" class="section level2">
+<h2>Home repository of JDemetra+ R ecosystem</h2>
 <!--
 
 **Here are some ideas to get you started:**
 
 🙋‍♀️ A short introduction - what is your organization all about?
-🌈 Contribution guidelines - how can the community get involved?
+🌈 Contribution Graphical User Interfacedelines - how can the community get involved?
 👩‍💻 Useful resources - where can the community find your docs? Is there anything else the community should know?
 🍿 Fun facts - what does your team eat for breakfast?
 🧙 Remember, you can do mighty things with the power of [Markdown](https://docs.github.com/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
 -->
-<p>rjdemetra is an organization dedicated to creating <strong>R packages
-giving access to JDemetra+</strong> version 3.x algorithms.</p>
+<p>rjdverse is an organization dedicated to creating <strong>R packages
+giving access to JDemetra+</strong> algorithms.</p>
 <p><a href="https://github.com/jdemetra">JDemetra+</a> is a versatile
 time series analysis software, whose core routines are written in Java
-and also accessible via a Graphical User Interface (GUI).</p>
+and also accessible via a Graphical User Interface (Graphical User
+Interface).</p>
 <p><a href="https://jdemetra-new-documentation.netlify.app/">[Documentation]</a>
 | <a href="https://jdemetra-universe-blog.netlify.app/">[Blog]</a></p>
 <p>Installation procedure and basic examples are given in the readme
@@ -376,49 +377,59 @@ file of each package. Their documentation is available via GitHub
 pages.</p>
 <p>Running rjd3 packages requires <strong>Java 17 or higher</strong>.
 How to set up such a configuration in R is explained <a href="https://jdemetra-new-documentation.netlify.app/#Rconfig">here</a></p>
-<p>List of R packages available on this page:</p>
+<p>Below is the list of R packages available from this page (relying on
+JDemetra+ core Java libraries) and links to add-on packages:</p>
+<p><strong>Interface to JDemetra+ v2.x</strong></p>
+<ul>
+<li><a href="https://github.com/rjdverse/rjdemetra">RJDemetra</a>
+(Seasonal adjustment with X-13 and Tramo-Seats)</li>
+</ul>
+<p>Additional R tools for JDemetra+ v2.x: <a href="https://github.com/AQLT/rjwsacruncher">rjwsacruncher</a>, <a href="https://github.com/InseeFr/JDCruncheR">JDcruncherR</a>, <a href="https://github.com/InseeFrLab/rjdworkspace">rjdworkspace</a>, <a href="https://github.com/AQLT/ggdemetra">ggdemetra</a>, <a href="https://github.com/AQLT/rjdqa">rjdqa</a>, <a href="https://github.com/AQLT/rjdmarkdown">rjdmarkdown</a></p>
+<p><strong>Interfaces to JDemetra+ v3.x</strong></p>
 <p><strong>General purpose tools</strong></p>
 <ul>
-<li><p><a href="https://github.com/rjdemetra/rjd3toolkit">rjd3toolkit</a> (Base
-layer for all other packages, tests, generating regressors)</p></li>
-<li><p><a href="https://github.com/rjdemetra/rjd3sts">rjd3sts</a> (State
+<li><p><a href="https://github.com/rjdverse/rjd3toolkit">rjd3toolkit</a>
+(Base layer for all other packages, tests, generating
+regressors)</p></li>
+<li><p><a href="https://github.com/rjdverse/rjd3sts">rjd3sts</a> (State
 Space Framework)</p></li>
 </ul>
 <p><strong>Seasonal adjustment</strong></p>
 <ul>
-<li><p><a href="https://github.com/rjdemetra/rjd3x13">rjd3x13</a>
+<li><p><a href="https://github.com/rjdverse/rjd3x13">rjd3x13</a>
 (Reg-Arima + X11 decomposition)</p></li>
-<li><p><a href="https://github.com/rjdemetra/rjd3tramoseats">rjd3tramoseats</a>
+<li><p><a href="https://github.com/rjdverse/rjd3tramoseats">rjd3tramoseats</a>
 (Tramo + SEATS decomposition)</p></li>
-<li><p><a href="https://github.com/rjdemetra/rjd3stl">rjd3stl</a> (Loess
+<li><p><a href="https://github.com/rjdverse/rjd3stl">rjd3stl</a> (Loess
 based regression decomposition)</p></li>
-<li><p><a href="https://github.com/rjdemetra/rjd3highfreq">rjd3highfreq</a>
+<li><p><a href="https://github.com/rjdverse/rjd3highfreq">rjd3highfreq</a>
 (Extended airline model + extended AMB decomposition)</p></li>
-<li><p><a href="https://github.com/rjdemetra/rjd3x11plus">rjd3x11plus</a>
+<li><p><a href="https://github.com/rjdverse/rjd3x11plus">rjd3x11plus</a>
 (Extended X11)</p></li>
 </ul>
 <p><strong>Benchmarking, Temporal disaggregation, Revision analysis and
 Nowcasting</strong></p>
 <ul>
-<li><p><a href="https://github.com/rjdemetra/rjd3bench">rjd3bench</a>
+<li><p><a href="https://github.com/rjdverse/rjd3bench">rjd3bench</a>
 (Benchmarking and Temporal disaggregation)</p></li>
-<li><p><a href="https://github.com/rjdemetra/rjd3revisions">rjd3revisions</a>
+<li><p><a href="https://github.com/rjdverse/rjd3revisions">rjd3revisions</a>
 (Revision analysis)</p></li>
-<li><p><a href="https://github.com/rjdemetra/rjd3nowcasting">rjd3nowcasting</a>
+<li><p><a href="https://github.com/rjdverse/rjd3nowcasting">rjd3nowcasting</a>
 (Nowcasting)</p></li>
 </ul>
 <p><strong>Filtering and Trend-cycle Extraction</strong></p>
 <ul>
-<li><a href="https://github.com/rjdemetra/rjd3filters">rjd3filters</a></li>
+<li><a href="https://github.com/rjdverse/rjd3filters">rjd3filters</a></li>
 </ul>
 <p><strong>Tools related to JDemetra+ Graphical User
 Interface</strong></p>
 <ul>
-<li><p><a href="https://github.com/rjdemetra/rjd3providers">rjd3providers</a>
-(Wrangling input data for GUI)</p></li>
-<li><p><a href="https://github.com/rjdemetra/rjdemetra3">rjdemetra3</a>
-(Wrangling workspaces for GUI)</p></li>
+<li><p><a href="https://github.com/rjdverse/rjd3providers">rjd3providers</a>
+(Wrangling input data for the Graphical User Interface)</p></li>
+<li><p><a href="https://github.com/rjdverse/rjd3workspace">rjd3workspace</a>
+(Wrangling workspaces for the Graphical User Interface)</p></li>
 </ul>
+<p>Additional R tools for JDemetra+ v3.x: <a href="https://github.com/AQLT/rjwsacruncher">rjwsacruncher</a>, <a href="https://github.com/AQLT/ggdemetra3">ggdemetra3</a></p>
 <div id="dependency-relations" class="section level3">
 <h3>Dependency relations</h3>
 <pre class="mermaid"><code>flowchart TB
@@ -437,8 +448,8 @@ Interface</strong></p>
             rjd3tramoseats
         end
 
-        rjd3providers --&gt; rjdemetra3
-        rjd3x13_tramo --&gt; rjdemetra3
+        rjd3providers --&gt; rjd3workspace
+        rjd3x13_tramo --&gt; rjd3workspace
 
         rjd3x13_tramo --&gt; ggdemetra3
         rjd3highfreq --&gt; ggdemetra3
@@ -453,19 +464,19 @@ Interface</strong></p>
 
     rjd3toolkit --&gt; rjd3toolkit_depends
 
-  click rjd3toolkit &quot;https://github.com/rjdemetra/rjd3toolkit&quot; _blank
-  click rjd3nowcasting &quot;https://github.com/rjdemetra/rjd3nowcasting&quot; _blank
-  click rjd3stl &quot;https://github.com/rjdemetra/rjd3stl&quot; _blank
-  click rjd3highfreq &quot;https://github.com/rjdemetra/rjd3highfreq&quot; _blank
-  click rjd3sts &quot;https://github.com/rjdemetra/rjd3sts&quot; _blank
-  click rjd3x11plus &quot;https://github.com/rjdemetra/rjd3x11plus&quot; _blank
-  click rjd3filters &quot;https://github.com/rjdemetra/rjd3filters&quot; _blank
-  click rjd3providers &quot;https://github.com/rjdemetra/rjd3providers&quot; _blank
-  click rjdemetra3 &quot;https://github.com/rjdemetra/rjdemetra3&quot; _blank
-  click rjd3x13 &quot;https://github.com/rjdemetra/rjd3x13&quot; _blank
-  click rjd3tramoseats &quot;https://github.com/rjdemetra/rjd3tramoseats&quot; _blank
-  click rjd3bench &quot;https://github.com/rjdemetra/rjd3bench&quot; _blank
-  click rjd3revisions &quot;https://github.com/rjdemetra/rjd3revisions&quot; _blank
+  click rjd3toolkit &quot;https://github.com/rjdverse/rjd3toolkit&quot; _blank
+  click rjd3nowcasting &quot;https://github.com/rjdverse/rjd3nowcasting&quot; _blank
+  click rjd3stl &quot;https://github.com/rjdverse/rjd3stl&quot; _blank
+  click rjd3highfreq &quot;https://github.com/rjdverse/rjd3highfreq&quot; _blank
+  click rjd3sts &quot;https://github.com/rjdverse/rjd3sts&quot; _blank
+  click rjd3x11plus &quot;https://github.com/rjdverse/rjd3x11plus&quot; _blank
+  click rjd3filters &quot;https://github.com/rjdverse/rjd3filters&quot; _blank
+  click rjd3providers &quot;https://github.com/rjdverse/rjd3providers&quot; _blank
+  click rjd3workspace &quot;https://github.com/rjdverse/rjd3workspace&quot; _blank
+  click rjd3x13 &quot;https://github.com/rjdverse/rjd3x13&quot; _blank
+  click rjd3tramoseats &quot;https://github.com/rjdverse/rjd3tramoseats&quot; _blank
+  click rjd3bench &quot;https://github.com/rjdverse/rjd3bench&quot; _blank
+  click rjd3revisions &quot;https://github.com/rjdverse/rjd3revisions&quot; _blank
   click ggdemetra3 &quot;https://github.com/AQLT/ggdemetra3&quot; _blank</code></pre>
 </div>
 </div>
