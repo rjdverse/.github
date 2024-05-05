@@ -1,4 +1,4 @@
-## Home repository of JDemetra+ v 3.x R ecosystem
+## Home repository of JDemetra+ R ecosystem
 <!--
 
 **Here are some ideas to get you started:**
@@ -10,7 +10,7 @@
 🧙 Remember, you can do mighty things with the power of [Markdown](https://docs.github.com/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
 -->
 
-rjdemetra is an organization dedicated to creating **R packages giving access to JDemetra+** version 3.x algorithms. 
+rjdverse is an organization dedicated to creating **R packages giving access to JDemetra+** algorithms. 
 
 [JDemetra+](https://github.com/jdemetra) is a versatile time series analysis software, whose core routines are written in Java and also accessible via a Graphical User Interface (GUI).
 
