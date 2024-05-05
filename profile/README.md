@@ -22,14 +22,14 @@ Running rjd3 packages requires **Java 17 or higher**. How to set up such a confi
 
 Below is the list of R packages available from this page (relying on JDemetra+ core Java libraries) and links to add-on packages:
 
-**Interface to JDemetra+ v2.x**
+_**Interface to JDemetra+ v2.x**_
 
 - [RJDemetra](https://github.com/rjdverse/rjdemetra) (Seasonal adjustment with X-13 and Tramo-Seats)
 
 Additional R tools for JDemetra+ v2.x: [rjwsacruncher](https://github.com/AQLT/rjwsacruncher), [JDcruncherR](https://github.com/InseeFr/JDCruncheR), [rjdworkspace](https://github.com/InseeFrLab/rjdworkspace), [ggdemetra](https://github.com/AQLT/ggdemetra), [rjdqa](https://github.com/AQLT/rjdqa), [rjdmarkdown](https://github.com/AQLT/rjdmarkdown)
 
 
-**Interfaces to JDemetra+ v3.x**
+_**Interfaces to JDemetra+ v3.x**_
 
 **General purpose tools**
 
