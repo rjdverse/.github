@@ -1,4 +1,4 @@
-## Home repository of JDemetra+ R ecosystem
+## Home of JDemetra+ R ecosystem
 <!--
 
 **Here are some ideas to get you started:**
