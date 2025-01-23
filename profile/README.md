@@ -68,7 +68,7 @@ tests, generating regressors)
 
 - [rjd3workspace](https://github.com/rjdverse/rjd3workspace) (Wrangling workspaces for the Graphical User Interface)
 
-Additional R tools for JDemetra+ v3.x: [rjwsacruncher](https://github.com/AQLT/rjwsacruncher), [ggdemetra3](https://github.com/AQLT/ggdemetra3)
+Additional R tools for JDemetra+ v3.x: [rjwsacruncher](https://github.com/AQLT/rjwsacruncher), [ggdemetra3](https://github.com/AQLT/ggdemetra3), [JDCruncher](https://github.com/InseeFr/JDCruncheR)
 
 ### Dependency relations 
 
