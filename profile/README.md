@@ -26,7 +26,9 @@ _**Interface to JDemetra+ v2.x**_
 
 - [RJDemetra](https://github.com/rjdverse/rjdemetra) (Seasonal adjustment with X-13 and Tramo-Seats)
 
-Additional R tools for JDemetra+ v2.x: [rjwsacruncher](https://github.com/AQLT/rjwsacruncher), [JDCruncherR](https://github.com/InseeFr/JDCruncheR), [rjdworkspace](https://github.com/InseeFrLab/rjdworkspace), [ggdemetra](https://github.com/AQLT/ggdemetra), [rjdqa](https://github.com/AQLT/rjdqa), [rjdmarkdown](https://github.com/AQLT/rjdmarkdown)
+Additional R tools for JDemetra+ v2.x: [rjwsacruncher](https://github.com/AQLT/rjwsacruncher), [JDCruncheR](https://github.com/InseeFr/JDCruncheR), [rjdworkspace](https://github.com/InseeFrLab/rjdworkspace), [ggdemetra](https://github.com/AQLT/ggdemetra), [rjdqa](https://github.com/AQLT/rjdqa), [rjdmarkdown](https://github.com/AQLT/rjdmarkdown)
+
+All the v2 related packages are available on CRAN.
 
 
 _**Interfaces to JDemetra+ v3.x**_
@@ -70,11 +72,13 @@ seasonality tests, generating regressors...)
 
 **Additional R tools for JDemetra+ v3.x:**
 
-- [rjwsacruncher](https://github.com/AQLT/rjwsacruncher) (Running the Cruncher from R)
+- [rjwsacruncher](https://github.com/AQLT/rjwsacruncher) (Running the Cruncher from R, available on CRAN)
 
-- [JDCruncher](https://github.com/InseeFr/JDCruncheR) (Producing a Quality Report based on Cruncher output)
+- [JDCruncher](https://github.com/InseeFr/JDCruncheR) (Producing a Quality Report based on Cruncher output, available on CRAN)
 
 - [ggdemetra3](https://github.com/AQLT/ggdemetra3) (Producing enhanced plots on SA process)
+
+
 
 ### Dependency relations 
 
