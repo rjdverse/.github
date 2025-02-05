@@ -352,8 +352,8 @@ display: none;
 </div>
 
 
-<div id="home-repository-of-jdemetra-r-ecosystem" class="section level2">
-<h2>Home repository of JDemetra+ R ecosystem</h2>
+<div id="jdemetra-r-ecosystem" class="section level2">
+<h2>JDemetra+ R ecosystem</h2>
 <!--
 
 **Here are some ideas to get you started:**
@@ -368,8 +368,7 @@ display: none;
 giving access to JDemetra+</strong> algorithms.</p>
 <p><a href="https://github.com/jdemetra">JDemetra+</a> is a versatile
 time series analysis software, whose core routines are written in Java
-and also accessible via a Graphical User Interface (Graphical User
-Interface).</p>
+and also accessible via a Graphical User Interface (GUI).</p>
 <p><a href="https://jdemetra-new-documentation.netlify.app/">[Documentation]</a>
 | <a href="https://jdemetra-universe-blog.netlify.app/">[Blog]</a></p>
 <p>Installation procedure and basic examples are given in the readme
@@ -379,18 +378,18 @@ pages.</p>
 How to set up such a configuration in R is explained <a href="https://jdemetra-new-documentation.netlify.app/#Rconfig">here</a></p>
 <p>Below is the list of R packages available from this page (relying on
 JDemetra+ core Java libraries) and links to add-on packages:</p>
-<p><strong>Interface to JDemetra+ v2.x</strong></p>
+<p><em><strong>Interface to JDemetra+ v2.x</strong></em></p>
 <ul>
 <li><a href="https://github.com/rjdverse/rjdemetra">RJDemetra</a>
 (Seasonal adjustment with X-13 and Tramo-Seats)</li>
 </ul>
-<p>Additional R tools for JDemetra+ v2.x: <a href="https://github.com/AQLT/rjwsacruncher">rjwsacruncher</a>, <a href="https://github.com/InseeFr/JDCruncheR">JDcruncherR</a>, <a href="https://github.com/InseeFrLab/rjdworkspace">rjdworkspace</a>, <a href="https://github.com/AQLT/ggdemetra">ggdemetra</a>, <a href="https://github.com/AQLT/rjdqa">rjdqa</a>, <a href="https://github.com/AQLT/rjdmarkdown">rjdmarkdown</a></p>
-<p><strong>Interfaces to JDemetra+ v3.x</strong></p>
+<p>Additional R tools for JDemetra+ v2.x: <a href="https://github.com/AQLT/rjwsacruncher">rjwsacruncher</a>, <a href="https://github.com/InseeFr/JDCruncheR">JDCruncherR</a>, <a href="https://github.com/InseeFrLab/rjdworkspace">rjdworkspace</a>, <a href="https://github.com/AQLT/ggdemetra">ggdemetra</a>, <a href="https://github.com/AQLT/rjdqa">rjdqa</a>, <a href="https://github.com/AQLT/rjdmarkdown">rjdmarkdown</a></p>
+<p><em><strong>Interfaces to JDemetra+ v3.x</strong></em></p>
 <p><strong>General purpose tools</strong></p>
 <ul>
 <li><p><a href="https://github.com/rjdverse/rjd3toolkit">rjd3toolkit</a>
-(Base layer for all other packages, tests, generating
-regressors)</p></li>
+(Base layer for all other packages, seasonality tests, generating
+regressors…)</p></li>
 <li><p><a href="https://github.com/rjdverse/rjd3sts">rjd3sts</a> (State
 Space Framework)</p></li>
 </ul>
@@ -429,7 +428,15 @@ Interface</strong></p>
 <li><p><a href="https://github.com/rjdverse/rjd3workspace">rjd3workspace</a>
 (Wrangling workspaces for the Graphical User Interface)</p></li>
 </ul>
-<p>Additional R tools for JDemetra+ v3.x: <a href="https://github.com/AQLT/rjwsacruncher">rjwsacruncher</a>, <a href="https://github.com/AQLT/ggdemetra3">ggdemetra3</a></p>
+<p><strong>Additional R tools for JDemetra+ v3.x:</strong></p>
+<ul>
+<li><p><a href="https://github.com/AQLT/rjwsacruncher">rjwsacruncher</a>
+(Running the Cruncher from R)</p></li>
+<li><p><a href="https://github.com/InseeFr/JDCruncheR">JDCruncher</a>
+(Producing a Quality Report based on Cruncher output)</p></li>
+<li><p><a href="https://github.com/AQLT/ggdemetra3">ggdemetra3</a>
+(Producing enhanced plots on SA process)</p></li>
+</ul>
 <div id="dependency-relations" class="section level3">
 <h3>Dependency relations</h3>
 <pre class="mermaid"><code>flowchart TB

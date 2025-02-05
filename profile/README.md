@@ -34,7 +34,7 @@ _**Interfaces to JDemetra+ v3.x**_
 **General purpose tools**
 
 - [rjd3toolkit](https://github.com/rjdverse/rjd3toolkit) (Base layer for all other packages,
-tests, generating regressors)
+seasonality tests, generating regressors...)
 
 - [rjd3sts](https://github.com/rjdverse/rjd3sts) (State Space Framework)
 
@@ -68,7 +68,13 @@ tests, generating regressors)
 
 - [rjd3workspace](https://github.com/rjdverse/rjd3workspace) (Wrangling workspaces for the Graphical User Interface)
 
-Additional R tools for JDemetra+ v3.x: [rjwsacruncher](https://github.com/AQLT/rjwsacruncher), [ggdemetra3](https://github.com/AQLT/ggdemetra3), [JDCruncher](https://github.com/InseeFr/JDCruncheR)
+**Additional R tools for JDemetra+ v3.x:**
+
+- [rjwsacruncher](https://github.com/AQLT/rjwsacruncher) (Running the Cruncher from R)
+
+- [JDCruncher](https://github.com/InseeFr/JDCruncheR) (Producing a Quality Report based on Cruncher output)
+
+- [ggdemetra3](https://github.com/AQLT/ggdemetra3) (Producing enhanced plots on SA process)
 
 ### Dependency relations 
 
