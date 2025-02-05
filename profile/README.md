@@ -80,7 +80,7 @@ seasonality tests, generating regressors...)
 
 ```mermaid
 flowchart TB
-    subgraph rjd3toolkit_depends ["All packages depend on rjd3toolkit"]
+    subgraph rjd3toolkit_depends [" "]
         direction TB
 
 
