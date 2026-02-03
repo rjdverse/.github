@@ -22,29 +22,20 @@ Running rjd3 packages requires **Java 17 or higher**. How to set up such a confi
 
 Below is the list of R packages available from this page (relying on JDemetra+ core Java libraries) and links to add-on packages:
 
-_**Interface to JDemetra+ v2.x**_
-
-- [RJDemetra](https://github.com/rjdverse/rjdemetra) (Seasonal adjustment with X-13 and Tramo-Seats)
-
-Additional R tools for JDemetra+ v2.x: [rjwsacruncher](https://github.com/AQLT/rjwsacruncher), [JDCruncheR](https://github.com/InseeFr/JDCruncheR), [rjdworkspace](https://github.com/InseeFrLab/rjdworkspace), [ggdemetra](https://github.com/AQLT/ggdemetra), [rjdqa](https://github.com/AQLT/rjdqa), [rjdmarkdown](https://github.com/AQLT/rjdmarkdown)
-
-All the v2 related packages are available on CRAN.
-
-
 _**Interfaces to JDemetra+ v3.x**_
 
 **General purpose tools**
 
-- [rjd3toolkit](https://github.com/rjdverse/rjd3toolkit) (Base layer for all other packages,
+- [rjd3toolkit](https://github.com/rjdverse/rjd3toolkit) (On CRAN, Base layer for all other packages,
 seasonality tests, generating regressors...)
 
 - [rjd3sts](https://github.com/rjdverse/rjd3sts) (State Space Framework)
 
 **Seasonal adjustment**
 
-- [rjd3x13](https://github.com/rjdverse/rjd3x13) (Reg-Arima + X11 decomposition)
+- [rjd3x13](https://github.com/rjdverse/rjd3x13) (On CRAN, Reg-Arima + X11 decomposition)
 
-- [rjd3tramoseats](https://github.com/rjdverse/rjd3tramoseats) (Tramo + SEATS decomposition)
+- [rjd3tramoseats](https://github.com/rjdverse/rjd3tramoseats) (On CRAN, Tramo + SEATS decomposition)
 
 - [rjd3stl](https://github.com/rjdverse/rjd3stl) (Loess based regression decomposition)
 
@@ -78,6 +69,13 @@ seasonality tests, generating regressors...)
 
 - [ggdemetra3](https://github.com/AQLT/ggdemetra3) (Producing enhanced plots on SA process)
 
+_**Interface to JDemetra+ v2.x**_
+
+- [RJDemetra](https://github.com/rjdverse/rjdemetra) (Seasonal adjustment with X-13 and Tramo-Seats)
+
+Additional R tools for JDemetra+ v2.x: [rjwsacruncher](https://github.com/AQLT/rjwsacruncher), [JDCruncheR](https://github.com/InseeFr/JDCruncheR), [rjdworkspace](https://github.com/InseeFrLab/rjdworkspace), [ggdemetra](https://github.com/AQLT/ggdemetra), [rjdqa](https://github.com/AQLT/rjdqa), [rjdmarkdown](https://github.com/AQLT/rjdmarkdown)
+
+All the v2 related packages are available on CRAN.
 
 
 ### Dependency relations 
