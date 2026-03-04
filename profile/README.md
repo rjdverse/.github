@@ -67,6 +67,8 @@ seasonality tests, generating regressors...)
 
 - [JDCruncher](https://github.com/InseeFr/JDCruncheR) (Producing a Quality Report based on Cruncher output, available on CRAN)
 
+- [rjd3prodction](https://github.com/InseeFr/rjd3production) (Wrapper with macro-function for SA production steps)
+
 - [ggdemetra3](https://github.com/AQLT/ggdemetra3) (Producing enhanced plots on SA process)
 
 _**Interface to JDemetra+ v2.x**_
