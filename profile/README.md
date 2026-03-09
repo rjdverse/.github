@@ -57,7 +57,7 @@ seasonality tests, generating regressors...)
     
 **Tools related to JDemetra+ Graphical User Interface**
 
-- [rjd3providers](https://github.com/rjdverse/rjd3providers) (Wrangling input data for the Graphical User Interface)
+- [rjd3providers](https://github.com/rjdverse/rjd3providers) (On CRAN, Wrangling input data for the Graphical User Interface)
 
 - [rjd3workspace](https://github.com/rjdverse/rjd3workspace) (Wrangling workspaces for the Graphical User Interface)
 
