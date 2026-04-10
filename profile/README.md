@@ -48,7 +48,7 @@ Auxiliary package
     
 **Benchmarking, Temporal disaggregation, Revision analysis and Nowcasting**
 
-- [rjd3bench](https://github.com/rjdverse/rjd3bench) (Benchmarking and Temporal disaggregation)
+- [rjd3bench](https://github.com/rjdverse/rjd3bench) (On CRAN, Benchmarking and Temporal disaggregation)
 
 - [rjd3revisions](https://github.com/rjdverse/rjd3revisions) (Revision analysis)
 
@@ -62,13 +62,13 @@ Auxiliary package
 
 - [rjd3providers](https://github.com/rjdverse/rjd3providers) (On CRAN, Wrangling input data for the Graphical User Interface)
 
-- [rjd3workspace](https://github.com/rjdverse/rjd3workspace) (Wrangling workspaces for the Graphical User Interface)
+- [rjd3workspace](https://github.com/rjdverse/rjd3workspace) (On CRAN, Wrangling workspaces for the Graphical User Interface)
 
 **Additional R tools for JDemetra+ v3.x:**
 
-- [rjwsacruncher](https://github.com/AQLT/rjwsacruncher) (Running the Cruncher from R, available on CRAN)
+- [rjwsacruncher](https://github.com/AQLT/rjwsacruncher) (On CRAN, Running the Cruncher from R)
 
-- [JDCruncher](https://github.com/InseeFr/JDCruncheR) (Producing a Quality Report based on Cruncher output, available on CRAN)
+- [JDCruncher](https://github.com/InseeFr/JDCruncheR) (On CRAN,Producing a Quality Report based on Cruncher output)
 
 - [rjd3production](https://github.com/InseeFr/rjd3production) (Wrapper with macro-function for SA production steps)
 
@@ -80,7 +80,7 @@ _**Interface to JDemetra+ v2.x**_
 
 Additional R tools for JDemetra+ v2.x: [rjwsacruncher](https://github.com/AQLT/rjwsacruncher), [JDCruncheR](https://github.com/InseeFr/JDCruncheR), [rjdworkspace](https://github.com/InseeFrLab/rjdworkspace), [ggdemetra](https://github.com/AQLT/ggdemetra), [rjdqa](https://github.com/AQLT/rjdqa), [rjdmarkdown](https://github.com/AQLT/rjdmarkdown)
 
-All the v2 related packages are available on CRAN.
+All v2 related packages are available on CRAN.
 
 
 ### Dependency relations 
