@@ -31,8 +31,9 @@ seasonality tests, generating regressors...)
 
 - [rjd3sts](https://github.com/rjdverse/rjd3sts) (State Space Framework)
 
-Auxiliary package
-- [rjd3jars](https://github.com/rjdverse/rjd3jars) (Only needed for local build of rjd3toolkit) 
+Auxiliary packages
+- [rjd3jars](https://github.com/rjdverse/rjd3jars) (Only needed for local build of rjd3toolkit)
+- [rjd3xjars](https://github.com/rjdverse/rjd3xjars) (Only needed for local build of rjd3highfreq, rjd3stl, rjd3sts and rjd3x11plus) 
 
 **Seasonal adjustment**
 
