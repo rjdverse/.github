@@ -88,16 +88,22 @@ All v2 related packages are available on CRAN.
 
 ```mermaid
 
-flowchart TB
+flowchart
+    direction TB
+
+    rjd3jars
+    rjd3toolkit
+    rjd3xjars
+
     subgraph rjd3toolkit_depends [" "]
         direction TB
 
+        rjd3providers
+        rjd3workspace
+        ggdemetra3
+        
         rjd3providers --> rjd3workspace
         
-        rjd3xjars --> rjd3highfreq
-        rjd3xjars --> rjd3sts
-        rjd3xjars --> rjd3stl
-
         subgraph rjd3_other[" "]
             rjd3bench
             rjd3revisions
@@ -110,18 +116,27 @@ flowchart TB
         end
 
         rjd3x13_tramo --> rjd3workspace
-
         rjd3x13_tramo --> ggdemetra3
         rjd3highfreq --> ggdemetra3
         rjd3x11plus --> ggdemetra3
         rjd3filters --> ggdemetra3
         
         rjd3filters --> rjd3x11plus
+        rjd3sts
+        rjd3stl
+        rjd3filters
+        rjd3x11plus
+        rjd3highfreq
 
     end
 
     rjd3jars --> rjd3toolkit
     rjd3toolkit --> rjd3toolkit_depends
+    rjd3jars --> rjd3toolkit_depends
+    rjd3jars --> rjd3xjars
+    rjd3xjars --> rjd3highfreq
+    rjd3xjars --> rjd3sts
+    rjd3xjars --> rjd3stl
 
   click rjd3jars "https://github.com/rjdverse/rjd3jars" _blank
   click rjd3xjars "https://github.com/rjdverse/rjd3xjars" _blank
