@@ -69,7 +69,7 @@ Auxiliary packages
 
 - [rjwsacruncher](https://github.com/AQLT/rjwsacruncher) (On CRAN, Running the Cruncher from R)
 
-- [JDCruncher](https://github.com/InseeFr/JDCruncheR) (On CRAN,Producing a Quality Report based on Cruncher output)
+- [rjd3qr](https://github.com/InseeFr/rjd3qr) (On CRAN,Producing a Quality Report based on Cruncher output + JVS/LCI plug-in in R)
 
 - [rjd3production](https://github.com/InseeFr/rjd3production) (Wrapper with macro-function for SA production steps)
 
