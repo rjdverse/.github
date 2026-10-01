@@ -12,13 +12,13 @@
 
 rjdverse is an organization dedicated to creating **R packages giving access to JDemetra+** algorithms. 
 
-[JDemetra+](https://github.com/jdemetra) is a versatile time series analysis software, whose core routines are written in Java and also accessible via a Graphical User Interface (GUI).
+[JDemetra+](https://www.jdemetra;org) is a versatile time series analysis software, whose core routines are written in Java and also accessible via a Graphical User Interface (GUI).
 
 [[Documentation]](https://doc.jdemetra.org/) | [[Blog]](https://blog.jdemetra.org/)
 
 Installation procedure and basic examples are given in the readme file of each package. Their documentation is available via GitHub pages.
 
-Running rjd3 packages requires **Java 17 or higher**. How to set up such a configuration in R is explained [here](https://doc.jdemetra.org/#Rconfig) 
+Running rjd3 packages requires **Java 21 or higher**. How to set up such a configuration in R is explained [here](https://doc.jdemetra.org/#Rconfig) 
 
 Below is the list of R packages available from this page (relying on JDemetra+ core Java libraries) and links to add-on packages:
 
@@ -33,7 +33,7 @@ seasonality tests, generating regressors...)
 
 Auxiliary packages
 - [rjd3jars](https://github.com/rjdverse/rjd3jars) (Only needed for local build of rjd3toolkit)
-- [rjd3xjars](https://github.com/rjdverse/rjd3xjars) (Only needed for local build of rjd3highfreq, rjd3stl, rjd3sts and rjd3x11plus) 
+- [rjd3xjars](https://github.com/rjdverse/rjd3xjars) (Only needed for local build of rjd3highfreq and rjd3sts) 
 
 **Seasonal adjustment**
 
@@ -41,11 +41,7 @@ Auxiliary packages
 
 - [rjd3tramoseats](https://github.com/rjdverse/rjd3tramoseats) (On CRAN, Tramo + SEATS decomposition)
 
-- [rjd3stl](https://github.com/rjdverse/rjd3stl) (Loess based regression decomposition)
-
-- [rjd3highfreq](https://github.com/rjdverse/rjd3highfreq) (Extended airline model + extended AMB decomposition)
-
-- [rjd3x11plus](https://github.com/rjdverse/rjd3x11plus) (Extended X11)
+- [rjd3highfreq](https://github.com/rjdverse/rjd3highfreq) (Extended airline model + extended AMB decomposition + Extended X11 + Extended STL)
     
 **Benchmarking, Temporal disaggregation, Revision analysis and Nowcasting**
 
@@ -108,12 +104,8 @@ flowchart TB
 
         rjd3x13_tramo --> ggdemetra3
         rjd3highfreq --> ggdemetra3
-        rjd3x11plus --> ggdemetra3
         rjd3filters --> ggdemetra3
-        
-        rjd3filters --> rjd3x11plus
-        rjd3sts --> rjd3highfreq
-        rjd3highfreq --> rjd3stl
+
 
     end
 
@@ -121,10 +113,8 @@ flowchart TB
 
   click rjd3toolkit "https://github.com/rjdverse/rjd3toolkit" _blank
   click rjd3nowcasting "https://github.com/rjdverse/rjd3nowcasting" _blank
-  click rjd3stl "https://github.com/rjdverse/rjd3stl" _blank
   click rjd3highfreq "https://github.com/rjdverse/rjd3highfreq" _blank
   click rjd3sts "https://github.com/rjdverse/rjd3sts" _blank
-  click rjd3x11plus "https://github.com/rjdverse/rjd3x11plus" _blank
   click rjd3filters "https://github.com/rjdverse/rjd3filters" _blank
   click rjd3providers "https://github.com/rjdverse/rjd3providers" _blank
   click rjd3workspace "https://github.com/rjdverse/rjd3workspace" _blank
