@@ -12,7 +12,7 @@
 
 rjdverse is an organization dedicated to creating **R packages giving access to JDemetra+** algorithms. 
 
-[JDemetra+](https://www.jdemetra;org) is a versatile time series analysis software, whose core routines are written in Java and also accessible via a Graphical User Interface (GUI).
+[JDemetra+](https://www.jdemetra.org) is a versatile time series analysis software, whose core routines are written in Java and also accessible via a Graphical User Interface (GUI).
 
 [[Documentation]](https://doc.jdemetra.org/) | [[Blog]](https://blog.jdemetra.org/)
 
