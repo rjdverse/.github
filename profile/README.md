@@ -33,7 +33,7 @@ seasonality tests, generating regressors...)
 
 Auxiliary packages
 - [rjd3jars](https://github.com/rjdverse/rjd3jars) (Only needed for local build of rjd3toolkit)
-- [rjd3xjars](https://github.com/rjdverse/rjd3xjars) (Only needed for local build of rjd3highfreq and rjd3sts) 
+- [rjd3xjars](https://github.com/rjdverse/rjd3xjars) (Only needed for local build of rjd3highfreq and rjd3sts, depends on rjd3toolkit) 
 
 **Seasonal adjustment**
 
