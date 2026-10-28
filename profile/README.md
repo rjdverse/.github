@@ -41,7 +41,7 @@ Auxiliary packages
 
 - [rjd3tramoseats](https://github.com/rjdverse/rjd3tramoseats) (On CRAN, Tramo + SEATS decomposition)
 
-- [rjd3highfreq](https://github.com/rjdverse/rjd3highfreq) (Extended airline model + extended AMB decomposition + Extended X11 + Extended STL)
+- [rjd3highfreq](https://github.com/rjdverse/rjd3highfreq) (On CRAN, Extended airline model + extended AMB decomposition + Extended X11 + Extended STL)
     
 **Benchmarking, Temporal disaggregation, Revision analysis and Nowcasting**
 
@@ -53,7 +53,7 @@ Auxiliary packages
     
 **Filtering and Trend-cycle Extraction**
 
-- [rjd3filters](https://github.com/rjdverse/rjd3filters)
+- [rjd3filters](https://github.com/rjdverse/rjd3filters) (On CRAN, Filtering and Trend-cycle Extraction)
     
 **Tools related to JDemetra+ Graphical User Interface**
 
@@ -65,9 +65,9 @@ Auxiliary packages
 
 - [rjwsacruncher](https://github.com/AQLT/rjwsacruncher) (On CRAN, Running the Cruncher from R)
 
-- [rjd3qr](https://github.com/InseeFr/rjd3qr) (On CRAN,Producing a Quality Report based on Cruncher output + JVS/LCI plug-in in R)
+- [rjd3qr](https://github.com/InseeFr/rjd3qr) (On CRAN, Producing a Quality Report based on Cruncher output + JVS/LCI plug-in in R)
 
-- [rjd3production](https://github.com/InseeFr/rjd3production) (Wrapper with macro-function for SA production steps)
+- [rjd3production](https://github.com/InseeFr/rjd3production) (On CRAN, Wrapper with macro-function for SA production steps)
 
 - [ggdemetra3](https://github.com/AQLT/ggdemetra3) (Producing enhanced plots on SA process)
 
